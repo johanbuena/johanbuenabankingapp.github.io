@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #009efa, #71a0e8, #95a4d6, #a9aac4, #b3b3b3);
+    background-size: cover;
+    font-family: "Lucida Console", monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+
+#userInfo {
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-around;
+    align-content: center; */
+    margin: 5px;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50vmin;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50vmin;
+    /* border: 1px solid black; */
+    /* color:ghostwhite; */
+    /* display: none; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#dashboard-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* width: 75vmin; */
+    /* color:ghostwhite; */
+    /* display: none; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#dashboard-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* width: 75vmin; */
+    /* color:ghostwhite; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#depositContent {
+    display: block;
+}
+
+#withdrawContent {
+    display: none;
+}
+
+#transferContent {
+    display: none;
+}
+#login-form {
+    margin: 5px;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50vmin;
+    /* color:ghostwhite; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#signup-form {
+    margin: 5px;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50vmin;
+    /* color:ghostwhite; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+}
